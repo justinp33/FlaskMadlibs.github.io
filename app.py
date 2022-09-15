@@ -7,7 +7,7 @@ app.config['SECRET_KEY'] = "secret"
 
 debug = DebugToolbarExtension(app)
 
-@app.route('/')
+@app.route("/")
 def index():
     """Show home page with questions"""
 
